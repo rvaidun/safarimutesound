@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681A215A2D6B454000BB3040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A21592D6B454000BB3040 /* AppDelegate.swift */; };
+		681A215C2D6B454000BB3040 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A215B2D6B454000BB3040 /* SceneDelegate.swift */; };
+		681A215F2D6B454000BB3040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681A215D2D6B454000BB3040 /* LaunchScreen.storyboard */; };
+		681A21622D6B454000BB3040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681A21602D6B454000BB3040 /* Main.storyboard */; };
+		681A216B2D6B454000BB3040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A216A2D6B454000BB3040 /* AppDelegate.swift */; };
+		681A216E2D6B454000BB3040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681A216C2D6B454000BB3040 /* Main.storyboard */; };
+		681A21762D6B454000BB3040 /* Mute All Sounds Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 681A21752D6B454000BB3040 /* Mute All Sounds Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		681A21802D6B454000BB3040 /* Mute All Sounds Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 681A217F2D6B454000BB3040 /* Mute All Sounds Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		681A21862D6B454000BB3040 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 681A21492D6B453F00BB3040 /* Main.html */; };
+		681A21872D6B454000BB3040 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 681A21492D6B453F00BB3040 /* Main.html */; };
+		681A21882D6B454000BB3040 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 681A214B2D6B453F00BB3040 /* Icon.png */; };
+		681A21892D6B454000BB3040 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 681A214B2D6B453F00BB3040 /* Icon.png */; };
+		681A218A2D6B454000BB3040 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 681A214C2D6B453F00BB3040 /* Style.css */; };
+		681A218B2D6B454000BB3040 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 681A214C2D6B453F00BB3040 /* Style.css */; };
+		681A218C2D6B454000BB3040 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 681A214D2D6B453F00BB3040 /* Script.js */; };
+		681A218D2D6B454000BB3040 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 681A214D2D6B453F00BB3040 /* Script.js */; };
+		681A218E2D6B454000BB3040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A214E2D6B453F00BB3040 /* ViewController.swift */; };
+		681A218F2D6B454000BB3040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A214E2D6B453F00BB3040 /* ViewController.swift */; };
+		681A21902D6B454000BB3040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681A214F2D6B454000BB3040 /* Assets.xcassets */; };
+		681A21912D6B454000BB3040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681A214F2D6B454000BB3040 /* Assets.xcassets */; };
+		681A21922D6B454000BB3040 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A21512D6B454000BB3040 /* SafariWebExtensionHandler.swift */; };
+		681A21932D6B454000BB3040 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A21512D6B454000BB3040 /* SafariWebExtensionHandler.swift */; };
+		681A21AA2D6B454100BB3040 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A52D6B454100BB3040 /* README.md */; };
+		681A21AB2D6B454100BB3040 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A62D6B454100BB3040 /* icons */; };
+		681A21AC2D6B454100BB3040 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A72D6B454100BB3040 /* manifest.json */; };
+		681A21AD2D6B454100BB3040 /* DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A82D6B454100BB3040 /* DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp */; };
+		681A21AE2D6B454100BB3040 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A92D6B454100BB3040 /* src */; };
+		681A21AF2D6B454100BB3040 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A52D6B454100BB3040 /* README.md */; };
+		681A21B02D6B454100BB3040 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A62D6B454100BB3040 /* icons */; };
+		681A21B12D6B454100BB3040 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A72D6B454100BB3040 /* manifest.json */; };
+		681A21B22D6B454100BB3040 /* DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A82D6B454100BB3040 /* DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp */; };
+		681A21B32D6B454100BB3040 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 681A21A92D6B454100BB3040 /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681A21772D6B454000BB3040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681A21432D6B453F00BB3040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681A21742D6B454000BB3040;
+			remoteInfo = "Mute All Sounds Extension (iOS)";
+		};
+		681A21812D6B454000BB3040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681A21432D6B453F00BB3040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681A217E2D6B454000BB3040;
+			remoteInfo = "Mute All Sounds Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		681A21992D6B454100BB3040 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				681A21762D6B454000BB3040 /* Mute All Sounds Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A21A02D6B454100BB3040 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				681A21802D6B454000BB3040 /* Mute All Sounds Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		681A214A2D6B453F00BB3040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		681A214B2D6B453F00BB3040 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		681A214C2D6B453F00BB3040 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		681A214D2D6B453F00BB3040 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		681A214E2D6B453F00BB3040 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		681A214F2D6B454000BB3040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		681A21512D6B454000BB3040 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		681A21562D6B454000BB3040 /* Mute All Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mute All Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		681A21592D6B454000BB3040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		681A215B2D6B454000BB3040 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		681A215E2D6B454000BB3040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		681A21612D6B454000BB3040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		681A21632D6B454000BB3040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681A21682D6B454000BB3040 /* Mute All Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mute All Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		681A216A2D6B454000BB3040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		681A216D2D6B454000BB3040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		681A216F2D6B454000BB3040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681A21702D6B454000BB3040 /* Mute All Sounds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mute All Sounds.entitlements"; sourceTree = "<group>"; };
+		681A21752D6B454000BB3040 /* Mute All Sounds Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mute All Sounds Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		681A217A2D6B454000BB3040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681A217F2D6B454000BB3040 /* Mute All Sounds Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mute All Sounds Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		681A21842D6B454000BB3040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681A21852D6B454000BB3040 /* Mute All Sounds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mute All Sounds.entitlements"; sourceTree = "<group>"; };
+		681A21A52D6B454100BB3040 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../firefox-extension/README.md"; sourceTree = "<group>"; };
+		681A21A62D6B454100BB3040 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../firefox-extension/icons"; sourceTree = "<group>"; };
+		681A21A72D6B454100BB3040 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../firefox-extension/manifest.json"; sourceTree = "<group>"; };
+		681A21A82D6B454100BB3040 /* DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp"; path = "../../firefox-extension/DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp"; sourceTree = "<group>"; };
+		681A21A92D6B454100BB3040 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "../../firefox-extension/src"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		681A21532D6B454000BB3040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A21652D6B454000BB3040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A21722D6B454000BB3040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A217C2D6B454000BB3040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681A21422D6B453F00BB3040 = {
+			isa = PBXGroup;
+			children = (
+				681A21472D6B453F00BB3040 /* Shared (App) */,
+				681A21502D6B454000BB3040 /* Shared (Extension) */,
+				681A21582D6B454000BB3040 /* iOS (App) */,
+				681A21692D6B454000BB3040 /* macOS (App) */,
+				681A21792D6B454000BB3040 /* iOS (Extension) */,
+				681A21832D6B454000BB3040 /* macOS (Extension) */,
+				681A21572D6B454000BB3040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		681A21472D6B453F00BB3040 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				681A214E2D6B453F00BB3040 /* ViewController.swift */,
+				681A214F2D6B454000BB3040 /* Assets.xcassets */,
+				681A21482D6B453F00BB3040 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		681A21482D6B453F00BB3040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				681A21492D6B453F00BB3040 /* Main.html */,
+				681A214B2D6B453F00BB3040 /* Icon.png */,
+				681A214C2D6B453F00BB3040 /* Style.css */,
+				681A214D2D6B453F00BB3040 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		681A21502D6B454000BB3040 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				681A21A42D6B454100BB3040 /* Resources */,
+				681A21512D6B454000BB3040 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		681A21572D6B454000BB3040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				681A21562D6B454000BB3040 /* Mute All Sounds.app */,
+				681A21682D6B454000BB3040 /* Mute All Sounds.app */,
+				681A21752D6B454000BB3040 /* Mute All Sounds Extension.appex */,
+				681A217F2D6B454000BB3040 /* Mute All Sounds Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681A21582D6B454000BB3040 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				681A21592D6B454000BB3040 /* AppDelegate.swift */,
+				681A215B2D6B454000BB3040 /* SceneDelegate.swift */,
+				681A215D2D6B454000BB3040 /* LaunchScreen.storyboard */,
+				681A21602D6B454000BB3040 /* Main.storyboard */,
+				681A21632D6B454000BB3040 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		681A21692D6B454000BB3040 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				681A216A2D6B454000BB3040 /* AppDelegate.swift */,
+				681A216C2D6B454000BB3040 /* Main.storyboard */,
+				681A216F2D6B454000BB3040 /* Info.plist */,
+				681A21702D6B454000BB3040 /* Mute All Sounds.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		681A21792D6B454000BB3040 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				681A217A2D6B454000BB3040 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		681A21832D6B454000BB3040 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				681A21842D6B454000BB3040 /* Info.plist */,
+				681A21852D6B454000BB3040 /* Mute All Sounds.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		681A21A42D6B454100BB3040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				681A21A52D6B454100BB3040 /* README.md */,
+				681A21A62D6B454100BB3040 /* icons */,
+				681A21A72D6B454100BB3040 /* manifest.json */,
+				681A21A82D6B454100BB3040 /* DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp */,
+				681A21A92D6B454100BB3040 /* src */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		681A21552D6B454000BB3040 /* Mute All Sounds (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681A219A2D6B454100BB3040 /* Build configuration list for PBXNativeTarget "Mute All Sounds (iOS)" */;
+			buildPhases = (
+				681A21522D6B454000BB3040 /* Sources */,
+				681A21532D6B454000BB3040 /* Frameworks */,
+				681A21542D6B454000BB3040 /* Resources */,
+				681A21992D6B454100BB3040 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681A21782D6B454000BB3040 /* PBXTargetDependency */,
+			);
+			name = "Mute All Sounds (iOS)";
+			productName = "Mute All Sounds (iOS)";
+			productReference = 681A21562D6B454000BB3040 /* Mute All Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681A21672D6B454000BB3040 /* Mute All Sounds (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681A21A12D6B454100BB3040 /* Build configuration list for PBXNativeTarget "Mute All Sounds (macOS)" */;
+			buildPhases = (
+				681A21642D6B454000BB3040 /* Sources */,
+				681A21652D6B454000BB3040 /* Frameworks */,
+				681A21662D6B454000BB3040 /* Resources */,
+				681A21A02D6B454100BB3040 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681A21822D6B454000BB3040 /* PBXTargetDependency */,
+			);
+			name = "Mute All Sounds (macOS)";
+			productName = "Mute All Sounds (macOS)";
+			productReference = 681A21682D6B454000BB3040 /* Mute All Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681A21742D6B454000BB3040 /* Mute All Sounds Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681A21962D6B454100BB3040 /* Build configuration list for PBXNativeTarget "Mute All Sounds Extension (iOS)" */;
+			buildPhases = (
+				681A21712D6B454000BB3040 /* Sources */,
+				681A21722D6B454000BB3040 /* Frameworks */,
+				681A21732D6B454000BB3040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mute All Sounds Extension (iOS)";
+			productName = "Mute All Sounds Extension (iOS)";
+			productReference = 681A21752D6B454000BB3040 /* Mute All Sounds Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		681A217E2D6B454000BB3040 /* Mute All Sounds Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681A219D2D6B454100BB3040 /* Build configuration list for PBXNativeTarget "Mute All Sounds Extension (macOS)" */;
+			buildPhases = (
+				681A217B2D6B454000BB3040 /* Sources */,
+				681A217C2D6B454000BB3040 /* Frameworks */,
+				681A217D2D6B454000BB3040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mute All Sounds Extension (macOS)";
+			productName = "Mute All Sounds Extension (macOS)";
+			productReference = 681A217F2D6B454000BB3040 /* Mute All Sounds Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		681A21432D6B453F00BB3040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					681A21552D6B454000BB3040 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					681A21672D6B454000BB3040 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					681A21742D6B454000BB3040 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					681A217E2D6B454000BB3040 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 681A21462D6B453F00BB3040 /* Build configuration list for PBXProject "Mute All Sounds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 681A21422D6B453F00BB3040;
+			productRefGroup = 681A21572D6B454000BB3040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				681A21552D6B454000BB3040 /* Mute All Sounds (iOS) */,
+				681A21672D6B454000BB3040 /* Mute All Sounds (macOS) */,
+				681A21742D6B454000BB3040 /* Mute All Sounds Extension (iOS) */,
+				681A217E2D6B454000BB3040 /* Mute All Sounds Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681A21542D6B454000BB3040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A21882D6B454000BB3040 /* Icon.png in Resources */,
+				681A215F2D6B454000BB3040 /* LaunchScreen.storyboard in Resources */,
+				681A21862D6B454000BB3040 /* Main.html in Resources */,
+				681A218C2D6B454000BB3040 /* Script.js in Resources */,
+				681A21902D6B454000BB3040 /* Assets.xcassets in Resources */,
+				681A21622D6B454000BB3040 /* Main.storyboard in Resources */,
+				681A218A2D6B454000BB3040 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A21662D6B454000BB3040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A21892D6B454000BB3040 /* Icon.png in Resources */,
+				681A218B2D6B454000BB3040 /* Style.css in Resources */,
+				681A216E2D6B454000BB3040 /* Main.storyboard in Resources */,
+				681A218D2D6B454000BB3040 /* Script.js in Resources */,
+				681A21912D6B454000BB3040 /* Assets.xcassets in Resources */,
+				681A21872D6B454000BB3040 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A21732D6B454000BB3040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A21B22D6B454100BB3040 /* DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp in Resources */,
+				681A21AF2D6B454100BB3040 /* README.md in Resources */,
+				681A21B12D6B454100BB3040 /* manifest.json in Resources */,
+				681A21B02D6B454100BB3040 /* icons in Resources */,
+				681A21B32D6B454100BB3040 /* src in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A217D2D6B454000BB3040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A21AD2D6B454100BB3040 /* DALL·E 2025-02-23 03.45.31 - A pixelated iOS app icon for a web extension that mutes sounds on a website. The icon features a small speaker with a red 'X' crossing through it, des.webp in Resources */,
+				681A21AA2D6B454100BB3040 /* README.md in Resources */,
+				681A21AC2D6B454100BB3040 /* manifest.json in Resources */,
+				681A21AB2D6B454100BB3040 /* icons in Resources */,
+				681A21AE2D6B454100BB3040 /* src in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681A21522D6B454000BB3040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A218E2D6B454000BB3040 /* ViewController.swift in Sources */,
+				681A215A2D6B454000BB3040 /* AppDelegate.swift in Sources */,
+				681A215C2D6B454000BB3040 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A21642D6B454000BB3040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A218F2D6B454000BB3040 /* ViewController.swift in Sources */,
+				681A216B2D6B454000BB3040 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A21712D6B454000BB3040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A21922D6B454000BB3040 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A217B2D6B454000BB3040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A21932D6B454000BB3040 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		681A21782D6B454000BB3040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681A21742D6B454000BB3040 /* Mute All Sounds Extension (iOS) */;
+			targetProxy = 681A21772D6B454000BB3040 /* PBXContainerItemProxy */;
+		};
+		681A21822D6B454000BB3040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681A217E2D6B454000BB3040 /* Mute All Sounds Extension (macOS) */;
+			targetProxy = 681A21812D6B454000BB3040 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		681A21492D6B453F00BB3040 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681A214A2D6B453F00BB3040 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		681A215D2D6B454000BB3040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681A215E2D6B454000BB3040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		681A21602D6B454000BB3040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681A21612D6B454000BB3040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		681A216C2D6B454000BB3040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681A216D2D6B454000BB3040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		681A21942D6B454100BB3040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		681A21952D6B454100BB3040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		681A21972D6B454100BB3040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute All Sounds Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mute-All-Sounds.Extension";
+				PRODUCT_NAME = "Mute All Sounds Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		681A21982D6B454100BB3040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute All Sounds Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mute-All-Sounds.Extension";
+				PRODUCT_NAME = "Mute All Sounds Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681A219B2D6B454100BB3040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute All Sounds";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mute-All-Sounds";
+				PRODUCT_NAME = "Mute All Sounds";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		681A219C2D6B454100BB3040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute All Sounds";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mute-All-Sounds";
+				PRODUCT_NAME = "Mute All Sounds";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681A219E2D6B454100BB3040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Mute All Sounds.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute All Sounds Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mute-All-Sounds.Extension";
+				PRODUCT_NAME = "Mute All Sounds Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		681A219F2D6B454100BB3040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Mute All Sounds.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute All Sounds Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mute-All-Sounds.Extension";
+				PRODUCT_NAME = "Mute All Sounds Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		681A21A22D6B454100BB3040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Mute All Sounds.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute All Sounds";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mute-All-Sounds";
+				PRODUCT_NAME = "Mute All Sounds";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		681A21A32D6B454100BB3040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Mute All Sounds.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute All Sounds";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Mute-All-Sounds";
+				PRODUCT_NAME = "Mute All Sounds";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681A21462D6B453F00BB3040 /* Build configuration list for PBXProject "Mute All Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A21942D6B454100BB3040 /* Debug */,
+				681A21952D6B454100BB3040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681A21962D6B454100BB3040 /* Build configuration list for PBXNativeTarget "Mute All Sounds Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A21972D6B454100BB3040 /* Debug */,
+				681A21982D6B454100BB3040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681A219A2D6B454100BB3040 /* Build configuration list for PBXNativeTarget "Mute All Sounds (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A219B2D6B454100BB3040 /* Debug */,
+				681A219C2D6B454100BB3040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681A219D2D6B454100BB3040 /* Build configuration list for PBXNativeTarget "Mute All Sounds Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A219E2D6B454100BB3040 /* Debug */,
+				681A219F2D6B454100BB3040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681A21A12D6B454100BB3040 /* Build configuration list for PBXNativeTarget "Mute All Sounds (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A21A22D6B454100BB3040 /* Debug */,
+				681A21A32D6B454100BB3040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 681A21432D6B453F00BB3040 /* Project object */;
+}
