@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Mute All Sounds",
+  "name": "Mute Tabs for Safari",
   "version": "1.0",
   "description": "An extension to mute all sounds on websites.",
   "permissions": [
@@ -26,6 +26,12 @@
     }
   ],
   "options_page": "src/options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "1024": "icons/icon1024.png"
+  },
   "browser_action": {
     "default_popup": "src/options.html",
     "default_icon": {

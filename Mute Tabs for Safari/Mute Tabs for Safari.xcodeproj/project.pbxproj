@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B092E52D6B4E4000925BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B092E42D6B4E4000925BCF /* AppDelegate.swift */; };
+		68B092E92D6B4E4000925BCF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 68B092E72D6B4E4000925BCF /* Main.html */; };
+		68B092EB2D6B4E4000925BCF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B092EA2D6B4E4000925BCF /* Icon.png */; };
+		68B092ED2D6B4E4000925BCF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 68B092EC2D6B4E4000925BCF /* Style.css */; };
+		68B092EF2D6B4E4000925BCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B092EE2D6B4E4000925BCF /* SceneDelegate.swift */; };
+		68B092F12D6B4E4000925BCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B092F02D6B4E4000925BCF /* ViewController.swift */; };
+		68B092F42D6B4E4000925BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B092F22D6B4E4000925BCF /* LaunchScreen.storyboard */; };
+		68B092F72D6B4E4000925BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B092F52D6B4E4000925BCF /* Main.storyboard */; };
+		68B092FF2D6B4E4100925BCF /* Mute Tabs for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68B092FE2D6B4E4100925BCF /* Mute Tabs for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68B093042D6B4E4100925BCF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B093032D6B4E4100925BCF /* SafariWebExtensionHandler.swift */; };
+		68B093062D6B4E4100925BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B092F82D6B4E4100925BCF /* Assets.xcassets */; };
+		68B093162D6B4E4200925BCF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 68B093112D6B4E4200925BCF /* README.md */; };
+		68B093172D6B4E4200925BCF /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 68B093122D6B4E4200925BCF /* icons */; };
+		68B093182D6B4E4200925BCF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 68B093132D6B4E4200925BCF /* manifest.json */; };
+		68B0931A2D6B4E4200925BCF /* src in Resources */ = {isa = PBXBuildFile; fileRef = 68B093152D6B4E4200925BCF /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B093002D6B4E4100925BCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B092D92D6B4E4000925BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B092FD2D6B4E4100925BCF;
+			remoteInfo = "Mute Tabs for Safari Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68B0930C2D6B4E4100925BCF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				68B092FF2D6B4E4100925BCF /* Mute Tabs for Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68B092E12D6B4E4000925BCF /* Mute Tabs for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mute Tabs for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B092E42D6B4E4000925BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68B092E82D6B4E4000925BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		68B092EA2D6B4E4000925BCF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		68B092EC2D6B4E4000925BCF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		68B092EE2D6B4E4000925BCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68B092F02D6B4E4000925BCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68B092F32D6B4E4000925BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B092F62D6B4E4000925BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68B092F82D6B4E4100925BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B092F92D6B4E4100925BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B092FE2D6B4E4100925BCF /* Mute Tabs for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mute Tabs for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B093032D6B4E4100925BCF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		68B093052D6B4E4100925BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B093112D6B4E4200925BCF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../firefox-extension/README.md"; sourceTree = "<group>"; };
+		68B093122D6B4E4200925BCF /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../firefox-extension/icons"; sourceTree = "<group>"; };
+		68B093132D6B4E4200925BCF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../firefox-extension/manifest.json"; sourceTree = "<group>"; };
+		68B093152D6B4E4200925BCF /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "../../firefox-extension/src"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B092DE2D6B4E4000925BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B092FB2D6B4E4100925BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B092D82D6B4E4000925BCF = {
+			isa = PBXGroup;
+			children = (
+				68B092E32D6B4E4000925BCF /* Mute Tabs for Safari */,
+				68B093022D6B4E4100925BCF /* Mute Tabs for Safari Extension */,
+				68B092E22D6B4E4000925BCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B092E22D6B4E4000925BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B092E12D6B4E4000925BCF /* Mute Tabs for Safari.app */,
+				68B092FE2D6B4E4100925BCF /* Mute Tabs for Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B092E32D6B4E4000925BCF /* Mute Tabs for Safari */ = {
+			isa = PBXGroup;
+			children = (
+				68B092E42D6B4E4000925BCF /* AppDelegate.swift */,
+				68B092EE2D6B4E4000925BCF /* SceneDelegate.swift */,
+				68B092F02D6B4E4000925BCF /* ViewController.swift */,
+				68B092F22D6B4E4000925BCF /* LaunchScreen.storyboard */,
+				68B092F52D6B4E4000925BCF /* Main.storyboard */,
+				68B092F82D6B4E4100925BCF /* Assets.xcassets */,
+				68B092F92D6B4E4100925BCF /* Info.plist */,
+				68B092E62D6B4E4000925BCF /* Resources */,
+			);
+			path = "Mute Tabs for Safari";
+			sourceTree = "<group>";
+		};
+		68B092E62D6B4E4000925BCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68B092E72D6B4E4000925BCF /* Main.html */,
+				68B092EA2D6B4E4000925BCF /* Icon.png */,
+				68B092EC2D6B4E4000925BCF /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68B093022D6B4E4100925BCF /* Mute Tabs for Safari Extension */ = {
+			isa = PBXGroup;
+			children = (
+				68B093102D6B4E4200925BCF /* Resources */,
+				68B093032D6B4E4100925BCF /* SafariWebExtensionHandler.swift */,
+				68B093052D6B4E4100925BCF /* Info.plist */,
+			);
+			path = "Mute Tabs for Safari Extension";
+			sourceTree = "<group>";
+		};
+		68B093102D6B4E4200925BCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68B093112D6B4E4200925BCF /* README.md */,
+				68B093122D6B4E4200925BCF /* icons */,
+				68B093132D6B4E4200925BCF /* manifest.json */,
+				68B093152D6B4E4200925BCF /* src */,
+			);
+			name = Resources;
+			path = "Mute Tabs for Safari Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B092E02D6B4E4000925BCF /* Mute Tabs for Safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B0930D2D6B4E4100925BCF /* Build configuration list for PBXNativeTarget "Mute Tabs for Safari" */;
+			buildPhases = (
+				68B092DD2D6B4E4000925BCF /* Sources */,
+				68B092DE2D6B4E4000925BCF /* Frameworks */,
+				68B092DF2D6B4E4000925BCF /* Resources */,
+				68B0930C2D6B4E4100925BCF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B093012D6B4E4100925BCF /* PBXTargetDependency */,
+			);
+			name = "Mute Tabs for Safari";
+			productName = "Mute Tabs for Safari";
+			productReference = 68B092E12D6B4E4000925BCF /* Mute Tabs for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68B092FD2D6B4E4100925BCF /* Mute Tabs for Safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B093092D6B4E4100925BCF /* Build configuration list for PBXNativeTarget "Mute Tabs for Safari Extension" */;
+			buildPhases = (
+				68B092FA2D6B4E4100925BCF /* Sources */,
+				68B092FB2D6B4E4100925BCF /* Frameworks */,
+				68B092FC2D6B4E4100925BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mute Tabs for Safari Extension";
+			productName = "Mute Tabs for Safari Extension";
+			productReference = 68B092FE2D6B4E4100925BCF /* Mute Tabs for Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B092D92D6B4E4000925BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					68B092E02D6B4E4000925BCF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					68B092FD2D6B4E4100925BCF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 68B092DC2D6B4E4000925BCF /* Build configuration list for PBXProject "Mute Tabs for Safari" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B092D82D6B4E4000925BCF;
+			productRefGroup = 68B092E22D6B4E4000925BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B092E02D6B4E4000925BCF /* Mute Tabs for Safari */,
+				68B092FD2D6B4E4100925BCF /* Mute Tabs for Safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B092DF2D6B4E4000925BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B092EB2D6B4E4000925BCF /* Icon.png in Resources */,
+				68B092F72D6B4E4000925BCF /* Main.storyboard in Resources */,
+				68B092F42D6B4E4000925BCF /* LaunchScreen.storyboard in Resources */,
+				68B092E92D6B4E4000925BCF /* Main.html in Resources */,
+				68B093062D6B4E4100925BCF /* Assets.xcassets in Resources */,
+				68B092ED2D6B4E4000925BCF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B092FC2D6B4E4100925BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B093162D6B4E4200925BCF /* README.md in Resources */,
+				68B093182D6B4E4200925BCF /* manifest.json in Resources */,
+				68B093172D6B4E4200925BCF /* icons in Resources */,
+				68B0931A2D6B4E4200925BCF /* src in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B092DD2D6B4E4000925BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B092F12D6B4E4000925BCF /* ViewController.swift in Sources */,
+				68B092E52D6B4E4000925BCF /* AppDelegate.swift in Sources */,
+				68B092EF2D6B4E4000925BCF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B092FA2D6B4E4100925BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B093042D6B4E4100925BCF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68B093012D6B4E4100925BCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B092FD2D6B4E4100925BCF /* Mute Tabs for Safari Extension */;
+			targetProxy = 68B093002D6B4E4100925BCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68B092E72D6B4E4000925BCF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B092E82D6B4E4000925BCF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		68B092F22D6B4E4000925BCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B092F32D6B4E4000925BCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		68B092F52D6B4E4000925BCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B092F62D6B4E4000925BCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B093072D6B4E4100925BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68B093082D6B4E4100925BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B0930A2D6B4E4100925BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WVHLY9ZK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mute Tabs for Safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute Tabs for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulvaidun.Mute-Tabs-for-Safari.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B0930B2D6B4E4100925BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WVHLY9ZK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mute Tabs for Safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute Tabs for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulvaidun.Mute-Tabs-for-Safari.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68B0930E2D6B4E4100925BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WVHLY9ZK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mute Tabs for Safari/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute Tabs for Safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulvaidun.Mute-Tabs-for-Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B0930F2D6B4E4100925BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WVHLY9ZK7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mute Tabs for Safari/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mute Tabs for Safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulvaidun.Mute-Tabs-for-Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B092DC2D6B4E4000925BCF /* Build configuration list for PBXProject "Mute Tabs for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B093072D6B4E4100925BCF /* Debug */,
+				68B093082D6B4E4100925BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B093092D6B4E4100925BCF /* Build configuration list for PBXNativeTarget "Mute Tabs for Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B0930A2D6B4E4100925BCF /* Debug */,
+				68B0930B2D6B4E4100925BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B0930D2D6B4E4100925BCF /* Build configuration list for PBXNativeTarget "Mute Tabs for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B0930E2D6B4E4100925BCF /* Debug */,
+				68B0930F2D6B4E4100925BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B092D92D6B4E4000925BCF /* Project object */;
+}

@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('Document loaded');
     getMutedState();
     // when checkbox with id muteToggle is clicked, saveOptions is called
-    document.querySelector('#muteToggle').addEventListener('click', saveOptions);
+    // document.querySelector('#muteToggle').addEventListener('mouseup', saveOptions);
     console.log('Event listener added');
 
 });
