@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Sound Mute Options</title>
     <script src="options.js"></script>
     <style>
@@ -35,23 +35,20 @@
             gap: 10px;
         }
 
-
-        input[type="checkbox"] {
-            appearance: none;
+        #muteToggle {
             width: 50px;
             height: 28px;
             background-color: #e4e4e4;
             border-radius: 20px;
             position: relative;
-            cursor: pointer;
             transition: background-color 0.3s;
         }
 
-        input[type="checkbox"]:checked {
+        #muteToggle.checked {
             background-color: #34c759;
         }
 
-        input[type="checkbox"]::before {
+        #muteToggle::before {
             content: '';
             position: absolute;
             width: 24px;
@@ -64,17 +61,13 @@
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
         }
 
-        input[type="checkbox"]:checked::before {
+        #muteToggle.checked::before {
             transform: translateX(22px);
         }
 
         label {
             font-size: 14px;
             user-select: none;
-
-            &>* {
-                pointer-events: none;
-            }
         }
     </style>
 </head>
@@ -82,9 +75,9 @@
 <body>
     <div class="container">
         <h1>Sound Mute Options</h1>
-        <div class="toggle-container" id="muteToggleContainer">
-            <input type="checkbox" id="muteToggle">
-            <label for="muteToggle">Mute all sounds</label>
+        <div class="toggle-container">
+            <div id="muteToggle"></div>
+            <span>Mute Sound</label>
         </div>
     </div>
 </body>
